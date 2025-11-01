@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GraceMax – Ride Grace. Save 25%.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --text: #f0f0f0;
+      --accent: #00ff9d;
+      --card: #111;
+      --border: #222;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      padding: 2rem;
+      background: radial-gradient(circle at top left, #1a1a1a, #0a0a0a);
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0,255,157,0.1);
+    }
+    header {
+      background: linear-gradient(135deg, #00ff9d, #00b86e);
+      color: #000;
+      text-align: center;
+      padding: 2.5rem 1rem;
+    }
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 800;
+      margin-bottom: 0.5rem;
+    }
+    .tagline {
+      font-size: 1.3rem;
+      font-weight: 600;
+      opacity: 0.9;
+    }
+    .highlight {
+      color: #000;
+      background: var(--accent);
+      padding: 0.1rem 0.4rem;
+      border-radius: 6px;
+      font-weight: 700;
+    }
+    .section {
+      padding: 2rem;
+    }
+    .section + .section {
+      border-top: 1px solid var(--border);
+    }
+    h2 {
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+      color: var(--accent);
+      font-weight: 600;
+    }
+    ul {
+      list-style: none;
+    }
+    li {
+      margin-bottom: 0.8rem;
+      position: relative;
+      padding-left: 2.5rem;
+    }
+    .edge-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      font-size: 0.95rem;
+    }
+    .edge-table th, .edge-table td {
+      padding: 0.8rem;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+    .edge-table th {
+      background: rgba(0,255,157,0.1);
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .pro-badge {
+      background: var(--accent);
+      color: #000;
+      padding: 0.3rem 0.8rem;
+      border-radius: 50px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      display: inline-block;
+      margin-left: 0.5rem;
+    }
+    .footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.85rem;
+      opacity: 0.7;
+      border-top: 1px solid var(--border);
+    }
+    @media (max-width: 600px) {
+      h1 { font-size: 2.2rem; }
+      .tagline { font-size: 1.1rem; }
+      li { padding-left: 2rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>GraceMax</h1>
+      <p class="tagline">Cancel smarter. <span class="highlight">Ride grace longer.</span> Save <span class="highlight">10–25%</span> on every sub.</p>
+    </header>
+
+    <!-- HOW IT WORKS: ALL EMOJIS -->
+    <div class="section">
+      <h2>How It Works</h2>
+      <ul>
+        <li>💳 Pay with <strong>virtual CC</strong> (Privacy.com, Eno)</li>
+        <li>📉 Drop limit to $1 after payment</li>
+        <li>🕰️ Renewal fails → <strong>ride grace period</strong></li>
+        <li>🔄 Repeat after cooldown</li>
+      </ul>
+    </div>
+
+    <!-- EDGE VS OTHERS: NO BULLETS → NO EMOJIS -->
+    <div class="section">
+      <h2>Edge vs Others</h2>
+      <table class="edge-table">
+        <tr><th>Other Apps</th><th><span style="color:var(--accent)">GraceMax</span></th></tr>
+        <tr><td>Save via <strong>cancellation</strong></td><td>Save via <strong>cancellation + free extra days</strong></td></tr>
+        <tr><td>No grace intel</td><td><strong>Crowd-sourced grace cycles</strong></td></tr>
+      </table>
+    </div>
+
+    <!-- FREE TIER: ALL EMOJIS -->
+    <div class="section">
+      <h2>Free Tier</h2>
+      <ul>
+        <li>🔍 Scan your subs → <strong>Grace Score</strong>: ready to abuse?</li>
+        <li>🔥 Hot Trial of the Week</li>
+        <li>📅 Basic calendar: “Spotify grace ends in 3 days”</li>
+      </ul>
+    </div>
+
+    <!-- PRO: ALL EMOJIS -->
+    <div class="section">
+      <h2>Pro <span class="pro-badge">$5/mo</span> – Precision Automation</h2>
+      <ul>
+        <li>🤖 <strong>Auto-cap VCC limit</strong> at perfect time</li>
+        <li>⏯️ <strong>Auto-cancel/pause</strong> at end of grace</li>
+        <li>⏳ Cooldown: <em>“Grace period available again for ChatGPT”</em></li>
+        <li>🔔 Real-time alerts: “Drop limit now”</li>
+        <li>📚 Full <strong>Exploit DB</strong> (200+ services)</li>
+        <li>💸 <strong>Hot Resalable Trial of the Month</strong><br><em>e.g., Google $300 API Key - Resale $20</em></li>
+      </ul>
+    </div>
+
+    <!-- DEV & DATA: ALL EMOJIS -->
+    <div class="section">
+      <h2>Dev & Data</h2>
+      <ul>
+        <li>🛠️ Fork <strong>Firefly III</strong> or reverse-engineer <strong>Rocket Money</strong></li>
+        <li>🧠 Crowd reports → AI learns grace DNA per vendor</li>
+        <li>🔄 Free users <strong>feed DB</strong>, Pro gets <strong>precision</strong></li>
+      </ul>
+    </div>
+
+    <!-- REVENUE: ALL EMOJIS -->
+    <div class="section">
+      <h2>Revenue</h2>
+      <ul>
+        <li>🆓 <strong>Freemium</strong>: Free tips + hot trial</li>
+        <li>💎 <strong>Pro ($5/mo)</strong>: Automation + resalable trials</li>
+        <li>🤝 <strong>Affiliate</strong>: VCC signups</li>
+      </ul>
+    </div>
+
+    <!-- FOOTER: NO BULLETS → NO EMOJIS -->
+    <div class="footer">
+      <em>Legal: We document real-world grace policies. Users control their VCCs. No fraud encouraged.</em><br>
+      <strong>MVP in 8 weeks.</strong>
+    </div>
+  </div>
+</body>
+</html>
